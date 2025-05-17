@@ -17,6 +17,12 @@ Pensando nisso, aplicativos como ANKI trabalham na teoria de Ebbinghaus, sendo u
 
 A partir deste ponto, será construida a programação referente a criação de Flashcards.
 
+## IMPORTANTE
+
+PARA UTILIZAZAR O CÓDIGO, VOCÊ PRECISA DE UMA API KEY DO GEMINI (https://www.youtube.com/watch?v=o8iyrtQyrZM) -> TUTORIAL.
+DICA: USE O GOOGLE COLAB, SIGA O CÓDIGO.
+
+# Lógica
 
 ## Criação dos Agentes
 
@@ -39,7 +45,7 @@ Peguntará qual será o sub-assunto para pesquisar de forma mais específica, af
 --------
 
 # --- Agente 3: Criador de Flashcards (gemini-2.5-flash-preview) --- #
-Fomulará as perguntas e respostas com base no assunto especificado do Agente 2 (número de perguntas é defido aqui)
+Fomulará as perguntas e respostas com base no assunto especificado do Agente 2 (número de perguntas é defido aqui).
 
 ```
 ######################################
@@ -81,15 +87,15 @@ def agente_criador(topico, plano_de_post):
 É especializado em questões e em flashcards, ele analiza as perguntas e respostas, caso estejam certas, prossegem para o fim. Em caso contrário, ele mesmo conserta.
 
 ------
-Ao final do processo, um link é sujerido para o AnkiPro (apesar do nome, é gratuito!). Link: https://ankipro.net/decks, faça login, selecione "importar" e depois, "importa CSV"
+Ao final do processo, um link é sujerido para o AnkiPro (apesar do nome, é gratuito!). Link: https://ankipro.net/decks, faça login, selecione "importar" e depois, "importa CSV".
 
 ![image](https://github.com/user-attachments/assets/227df805-d584-4544-b3a6-cfd2940f14b5)
 A página irá abrir neste formato, onde basta copiar e colar as perguntas e respostas dadas pelo Agente 4. Não precisa alterar as opções no Anki. 
 
 ![image](https://github.com/user-attachments/assets/5e2edfe6-544a-43b2-9ca5-dc61632e78d9)
-(AQUI VOCÊ COPIA)
+(AQUI VOCÊ COPIA).
 ![image](https://github.com/user-attachments/assets/c6d9eed0-975e-466a-ad45-befc860ac4b4)
-(AQUI VOCÊ COLA)
+(AQUI VOCÊ COLA).
 Lembre-se de dar um nome para o novo deck que você estará importantado, assim que nomea-lo, o botão é liberado. Basta importar.
 Abaixo, um exemplo de como será a visão após importar as questões.
 

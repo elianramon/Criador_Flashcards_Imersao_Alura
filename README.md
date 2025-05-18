@@ -17,7 +17,8 @@ A partir deste ponto, será construida a lógica de programação referente a cr
 
 Para utizar o código você precisa:
 - UMA API KEY DO GEMINI (https://www.youtube.com/watch?v=o8iyrtQyrZM) -> Tutorial;
-- USE O GOOGLE COLAB (copie meu código).
+- USE O GOOGLE COLAB (copie meu código);
+- FAÇA UMA CÓPIA DO MEU COLAB.
 
 ## Lógica
 A lógica dos agentes é o uso de chats em conjuntos que refinam a resposta final, como uma equipe de trabalho repassando a atividade adiante até sua conclusão.
